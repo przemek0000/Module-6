@@ -5,3 +5,12 @@ html {
 *, ::before, ::after {
     box-sizing: inherit;
 }
+
+body {
+    background-color: hsl(0, 0%, 57%);
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
