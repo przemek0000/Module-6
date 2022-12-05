@@ -3,12 +3,50 @@
     grid-template-columns: 1fr;
     grid-template-rows: 4fr 1fr 4fr;
     background-color: white;
+    align-items: center;
 }
 
 .showTasks__title {
-    margin: 20px 0 0 20px;
+    margin: 0 0 0 20px;
 }
 
-.showTasks__line {
-    align-self: center;
+.showTasks__line {}
+
+.showTasks__output {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.showTasks__done {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    flex: 0 0 30px;
+    height: 30px;
+    background-color: green;  
+}
+
+.showTasks__read {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.showTasks__remove {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 30px;
+    height: 30px;
+    margin: 10px;
+    background-color: red;
+    flex-grow: 0;
+}
+
+.test {
+    flex-grow: 1;
+    width: 100%;
+    margin: 0 10px 10px 10px;
 }
