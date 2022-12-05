@@ -1,6 +1,14 @@
 .showTasks {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: 4fr 1fr 4fr;
     background-color: white;
+}
+
+.showTasks__title {
+    margin: 20px 0 0 20px;
+}
+
+.showTasks__line {
+    align-self: center;
 }
