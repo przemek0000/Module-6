@@ -1,0 +1,38 @@
+.addNewTask{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr 1fr 3fr;
+    background-color: white;
+}
+
+.addNewTask__title {
+    margin: 20px 0 0 20px;
+}
+
+.addNewTask__line {
+    align-items: center;
+}
+
+.addNewTask__bottom {
+    display: flex;
+    margin: 0 20px 10px 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.addNewTask__label{
+    flex-grow: 1;
+}
+
+.addNewTask__input {
+    width: 99%;
+    height: 35px;
+}
+
+.addNewTask__button {
+    color: white;
+    background-color: teal;
+    border: 1px solid teal;
+    height: 35px;
+}
+
