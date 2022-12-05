@@ -36,3 +36,6 @@
     height: 35px;
 }
 
+.addNewTask__button:hover {
+    background-color: hsl(180, 100%, 35%);
+}
