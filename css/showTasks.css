@@ -58,12 +58,17 @@
     height: 30px;
     margin: 10px;
     margin-right: 20px;
-    background-color: red;
+    background-color: hsl(0, 100%, 50%);
     flex-grow: 0;
+    border: none;
 }
 
 .showTasks__remove:hover {
     background-color: hsl(0, 100%, 70%);
+}
+
+.showTasks__remove:active {
+    background-color: hsl(0, 100%, 40%);
 }
 
 .showTasks__endLine {

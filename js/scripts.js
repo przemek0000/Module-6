@@ -3,7 +3,26 @@
 
     const toggleTaskDone = (index) => {
         taskList[index].done = !taskList[index].done;
-            render();
+        render();
+    };
+
+    const doneSquareListinig = () => {
+        const checkDone = document.querySelectorAll(".js-done");
+        checkDone.forEach((check, index) => {
+            check.addEventListener("click", () => {
+                toggleTaskDone(index);
+            });
+        });
+    };
+
+    const removeSquareListning = () => {
+        const removeContent = document.querySelectorAll(".js-remove");
+        removeContent.forEach((data, index) => {
+            data.addEventListener("click", () => {
+                taskList.splice(index, 1);
+                render();
+            });
+        });
     };
 
     const render = () => {
@@ -17,9 +36,9 @@
              <div class="showTasks__read ${task.done === true ? " showTasks__outputLine" : ""}">
             ${task.content}
             </div>
-            <div class="showTasks__remove">
+            <button class="showTasks__remove js-remove">
             🗑
-            </div>
+            </button>
             <div class="showTasks__endLine">
             <hr>
             </div>
@@ -30,12 +49,8 @@
         const showOutput = document.querySelector(".js-output");
         showOutput.innerHTML = htmlString;
 
-        const checkDone = document.querySelectorAll(".js-done");
-        checkDone.forEach((check, index) => {
-            check.addEventListener("click", () => {
-                toggleTaskDone(index);
-            });
-        });
+        doneSquareListinig();
+        removeSquareListning ();
     };
 
     const clearAndFocus = () => {
