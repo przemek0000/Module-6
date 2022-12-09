@@ -8,6 +8,7 @@ html {
 
 body {
     background-color: hsl(0, 0%, 90%);
+    word-break: break-all;
 }
 
 .container {
