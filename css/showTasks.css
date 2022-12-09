@@ -42,6 +42,10 @@
     flex-basis: 0;
 }
 
+.showTasks__outputLine {
+    text-decoration: line-through;
+}
+
 .showTasks__remove {
     display: flex;
     align-items: center;

@@ -9,9 +9,9 @@
             htmlString += `
             <li class="showTasks__output">
             <button class="showTasks__done">
-               ✔
+            ✔
             </button>
-             <div class="showTasks__read">
+             <div class="showTasks__read ${task.done === true ? " showTasks__outputLine" : ""}">
             ${task.content}
             </div>
             <div class="showTasks__remove">
@@ -39,10 +39,13 @@
         }
         taskTable.push(
             {
-                content: getInput
+                content: getInput,
+                done: true
             });
         clearAndFocus();
         render();
+        
+
     };
 
     const init = () => {
