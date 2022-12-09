@@ -19,6 +19,17 @@
     align-items: center;
 }
 
+@media (max-width: 414px) {
+    .addNewTask__flexForm--resize {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .addNewTask__button--resize {
+        margin: 10px 0 0 20px;
+    }
+}
+
 .addNewTask__label {
     flex-basis: 100%;
     margin-left: 20px;
