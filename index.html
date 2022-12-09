@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Module-6</title>
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/header.css" rel="stylesheet">
     <link href="css/addNewTask.css" rel="stylesheet">
     <link href="css/showTasks.css" rel="stylesheet">
     <script defer src="js/scripts.js"></script>
@@ -34,12 +33,12 @@
                     <div class="addNewTask__line">
                         <hr>
                     </div>
-                    <div class="addNewTask__input">
-                        <label class="addNewTask__label">
-                            <input class="addNewTask__write" placeholder=" Co jest do zrobienia?">
+                    <form class="addNewTask__flexForm js-form">
+                        <label class="js-label addNewTask__label">
+                            <input class="addNewTask__input js-input" placeholder=" Co jest do zrobienia?" autofocus>
                         </label>
-                        <button type="button" class="addNewTask__button">Dodaj zadanie</button>
-                    </div>
+                        <button class="addNewTask__button js-button">Dodaj zadanie</button>
+                    </form>
                 </div>
             </section>
             <section>
@@ -52,20 +51,8 @@
                     <div class="showTasks__line">
                         <hr>
                     </div>
-                    <div class="showTasks__output">
-                        <button class="showTasks__done">
-                            ✔
-                        </button>
-                        <div class="showTasks__read">
-                            Example task
-                        </div>
-                        <div class="showTasks__remove">
-                            🗑
-                        </div>
-                        <div class="test">
-                            <hr>
-                        </div>
-                    </div>
+                    <ul class="showTasks__list js-output">
+                    </ul>
                 </div>
             </section>
         </main>

@@ -13,29 +13,41 @@
     align-self: center;
 }
 
+.addNewTask__flexForm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addNewTask__label {
+    flex-basis: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.addNewTask__input {
+    width: 100%;
+}
+
 .addNewTask__input {
     display: flex;
-    margin: 0 20px 10px 20px;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.addNewTask__label{
     flex-grow: 1;
-}
-
-.addNewTask__write {
-    width: 99%;
-    height: 35px;
+    flex-grow: 500px;
 }
 
 .addNewTask__button {
+    margin-right: 20px;
+    white-space: nowrap;
     color: white;
-    background-color: teal;
+    background-color: hsl(180, 100%, 25%);
     border: 1px solid teal;
     height: 35px;
 }
 
 .addNewTask__button:hover {
-    background-color: hsl(180, 100%, 35%);
+    background-color: hsl(180, 100%, 30%);
+}
+
+.addNewTask__button:active {
+    background-color: hsl(180, 100%, 20%);
 }

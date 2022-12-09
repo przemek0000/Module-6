@@ -1,13 +1,17 @@
 .showTasks {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 4fr 1fr 4fr;
+    grid-template-rows: 100px 0px 1fr;
     background-color: white;
     align-items: center;
 }
 
 .showTasks__title {
     margin: 0 0 0 20px;
+}
+
+.showTasks__list {
+    padding-inline-start: 0px;
 }
 
 .showTasks__output {
@@ -54,7 +58,7 @@
     background-color: hsl(0, 100%, 70%);
 }
 
-.test {
+.showTasks__endLine {
     flex-grow: 1;
     width: 100%;
     margin: 0 20px 10px 20px;
