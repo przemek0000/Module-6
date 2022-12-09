@@ -1,15 +1,18 @@
 {
-    const taskTable = [
+    const taskList = [];
 
-    ]
+    const toggleTaskDone = (index) => {
+        taskList[index].done = !taskList[index].done;
+            render();
+    };
 
     const render = () => {
         let htmlString = "";
-        for (const task of taskTable) {
+        for (const task of taskList) {
             htmlString += `
             <li class="showTasks__output">
-            <button class="showTasks__done">
-            ✔
+            <button class="showTasks__done js-done">
+            ${task.done === true ? "✔" : ""}
             </button>
              <div class="showTasks__read ${task.done === true ? " showTasks__outputLine" : ""}">
             ${task.content}
@@ -23,8 +26,16 @@
             </li>
             `
         }
+
         const showOutput = document.querySelector(".js-output");
         showOutput.innerHTML = htmlString;
+
+        const checkDone = document.querySelectorAll(".js-done");
+        checkDone.forEach((check, index) => {
+            check.addEventListener("click", () => {
+                toggleTaskDone(index);
+            });
+        });
     };
 
     const clearAndFocus = () => {
@@ -37,15 +48,12 @@
         if (!getInput) {
             return 1;
         }
-        taskTable.push(
+        taskList.push(
             {
                 content: getInput,
-                done: true
             });
         clearAndFocus();
         render();
-        
-
     };
 
     const init = () => {

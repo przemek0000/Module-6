@@ -37,6 +37,10 @@
     background-color: hsl(120, 100%, 35%);
 }
 
+.showTasks__done:active {
+    background-color: hsl(120, 100%, 25%);
+}
+
 .showTasks__read {
     flex-grow: 1;
     flex-basis: 0;
