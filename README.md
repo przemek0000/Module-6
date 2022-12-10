@@ -1,8 +1,9 @@
 # LIST TO DO
 
-  [Introduction](#introduction)
-  [Application build](#application-build)
-  [Technology used](#technology-used)
+- [LIST TO DO](#list-to-do)
+  - [Introduction](#introduction)
+  - [Application build](#application-build)
+  - [Technology used](#technology-used)
 
 ## Introduction
 
