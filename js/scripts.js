@@ -33,7 +33,7 @@
             <button class="showTasks__done js-done">
             ${task.done === true ? "<span class=\"showTasks__itemColor\">✔</span>" : ""}
             </button>
-             <div class="showTasks__read ${task.done === true ? " showTasks__outputLine" : ""}">
+             <div class="showTasks__read ${task.done === true ? " showTasks__doneLine" : ""}">
             ${task.content}
             </div>
             <button class="showTasks__remove js-remove">

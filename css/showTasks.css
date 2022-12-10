@@ -51,8 +51,9 @@
     flex-basis: 0;
 }
 
-.showTasks__outputLine {
+.showTasks__doneLine {
     text-decoration: line-through;
+    text-decoration-thickness: 2px;
 }
 
 .showTasks__remove {
