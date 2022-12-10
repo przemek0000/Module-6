@@ -31,13 +31,13 @@
             htmlString += `
             <li class="showTasks__output">
             <button class="showTasks__done js-done">
-            ${task.done === true ? "✔" : ""}
+            ${task.done === true ? "<span class=\"showTasks__itemColor\">✔</span>" : ""}
             </button>
              <div class="showTasks__read ${task.done === true ? " showTasks__outputLine" : ""}">
             ${task.content}
             </div>
             <button class="showTasks__remove js-remove">
-            🗑
+            <span class=\"showTasks__itemColor\">🗑</span>
             </button>
             <div class="showTasks__endLine">
             <hr>
