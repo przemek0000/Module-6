@@ -30,17 +30,17 @@
         for (const task of taskList) {
             htmlString += `
             <li class="showTasks__output">
-            <button class="showTasks__done js-done">
-            ${task.done === true ? "<span class=\"showTasks__itemColor\">✔</span>" : ""}
-            </button>
-             <div class="showTasks__read ${task.done === true ? " showTasks__doneLine" : ""}">
-            ${task.content}
-            </div>
-            <button class="showTasks__remove js-remove">
-            <span class=\"showTasks__itemColor\">🗑</span>
-            </button>
-            <hr class="showTasks__endLine">
-            </li>
+                <button class="showTasks__done js-done">
+                    ${task.done === true ? "<span class=\"showTasks__itemColor\">✔</span>" : ""}
+                </button>
+                 <div class="showTasks__read ${task.done === true ? " showTasks__doneLine" : ""}">
+                     ${task.content}
+                 </div>
+                 <button class="showTasks__remove js-remove">
+                    <span class=\"showTasks__itemColor\">🗑</span>
+                 </button>
+                 <hr class="showTasks__endLine">
+             </li>
             `
         }
 
