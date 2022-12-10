@@ -26,7 +26,8 @@
     }
 
     .addNewTask__button--resize {
-        margin: 10px 0 0 20px;
+        margin: 10px 0 10px 20px;
+        width: 100%;
     }
 }
 
