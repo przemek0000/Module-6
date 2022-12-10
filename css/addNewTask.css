@@ -63,4 +63,5 @@
 
 .addNewTask__button:active {
     background-color: hsl(180, 100%, 20%);
+    border: 1px solid black;
 }

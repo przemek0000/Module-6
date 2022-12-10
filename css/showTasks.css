@@ -43,6 +43,7 @@
 
 .showTasks__done:active {
     background-color: hsl(120, 100%, 25%);
+    border: 1px solid black;
 }
 
 .showTasks__read {
@@ -73,6 +74,7 @@
 
 .showTasks__remove:active {
     background-color: hsl(0, 100%, 40%);
+    border: 1px solid black;
 }
 
 .showTasks__endLine {
