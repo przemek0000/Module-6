@@ -50,7 +50,7 @@
         showOutput.innerHTML = htmlString;
 
         doneSquareListinig();
-        removeSquareListning ();
+        removeSquareListning();
     };
 
     const clearAndFocus = () => {
