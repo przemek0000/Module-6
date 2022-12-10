@@ -7,6 +7,7 @@
 
 .addNewTask__title {
     margin: 20px 0 0 20px;
+    white-space: nowrap;
 }
 
 .addNewTask__line {
@@ -24,11 +25,16 @@
     .addNewTask__flexForm--resize {
         display: flex;
         flex-wrap: wrap;
+        margin: 0;
     }
 
     .addNewTask__button--resize {
         margin: 10px 0 10px 20px;
         width: 100%;
+    }
+
+    .addNewTask--shrink {
+        grid-template-rows: 2fr 1fr 4fr;
     }
 }
 
