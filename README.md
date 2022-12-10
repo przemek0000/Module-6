@@ -1,9 +1,14 @@
+# TO DO LIST
+
+- [TO DO LIST](#to-do-list)
+  - [DEMO](#demo)
+  - [Introduction](#introduction)
+  - [Application build](#application-build)
+  - [Technology used](#technology-used)
+
+## DEMO
 
 [Website](https://przemek0000.github.io/Module-6/)
-
-- [Introduction](#introduction)
-- [Application build](#application-build)
-- [Technology used](#technology-used)
 
 ## Introduction
 
