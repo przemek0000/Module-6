@@ -38,7 +38,7 @@
 }
 
 .showTasks__done:hover {
-    background-color: hsl(120, 100%, 35%);
+    background-color: hsl(120, 100%, 30%);
 }
 
 .showTasks__done:active {
@@ -69,11 +69,11 @@
 }
 
 .showTasks__remove:hover {
-    background-color: hsl(0, 100%, 70%);
+    background-color: hsl(0, 100%, 62%);
 }
 
 .showTasks__remove:active {
-    background-color: hsl(0, 100%, 40%);
+    background-color: hsl(0, 100%, 45%);
     border: 1px solid black;
 }
 
