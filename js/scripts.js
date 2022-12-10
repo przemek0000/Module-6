@@ -61,6 +61,7 @@
     const onEventFormListiner = () => {
         let getInput = document.querySelector(".js-input").value.trim();
         if (!getInput) {
+            document.querySelector(".js-label").focus();
             return 1;
         }
         taskList.push(
