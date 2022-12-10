@@ -14,7 +14,7 @@
     align-self: center;
 }
 
-.addNewTask__flexForm {
+.addNewTask__Form {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,7 +22,7 @@
 }
 
 @media (max-width: 414px) {
-    .addNewTask__flexForm--resize {
+    .addNewTask__flex--resize {
         display: flex;
         flex-wrap: wrap;
         margin: 0;
