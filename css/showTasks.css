@@ -10,6 +10,11 @@
     margin: 0 0 0 20px;
 }
 
+.showTasks__line {
+    width: 100%;
+    border: 1px solid hsl(0, 0%, 90%);
+}
+
 .showTasks__list {
     padding-inline-start: 0px;
 }
@@ -82,4 +87,5 @@
     flex-grow: 1;
     width: 100%;
     margin: 0 20px 10px 20px;
+    border: 1px solid hsl(0, 0%, 90%)
 }

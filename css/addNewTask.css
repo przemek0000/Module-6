@@ -11,7 +11,9 @@
 }
 
 .addNewTask__line {
+    width: 100%;
     align-self: center;
+    border: 1px solid hsl(0, 0%, 90%)
 }
 
 .addNewTask__Form {

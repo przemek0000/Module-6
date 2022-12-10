@@ -39,9 +39,7 @@
             <button class="showTasks__remove js-remove">
             <span class=\"showTasks__itemColor\">🗑</span>
             </button>
-            <div class="showTasks__endLine">
-            <hr>
-            </div>
+            <hr class="showTasks__endLine">
             </li>
             `
         }
