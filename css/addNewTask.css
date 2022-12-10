@@ -22,7 +22,7 @@
 }
 
 @media (max-width: 414px) {
-    .addNewTask__flex--resize {
+    .addNewTask__form--resize {
         display: flex;
         flex-wrap: wrap;
         margin: 0;
